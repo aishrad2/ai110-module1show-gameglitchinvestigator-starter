@@ -5,7 +5,11 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+look normal, like expected
 - List at least two concrete bugs you noticed at the start  
+   1. allowing improper input (parse guess function in app.py)
+   2. hints are wrong (line 37-40 of app.py)
+   3. difficulty ranges are wrong
   (for example: "the hints were backwards").
 
 **Bug Reproduction Log**
